@@ -13,6 +13,7 @@ class StaticHelper: NSObject {
 
     static let shared = StaticHelper()
 
+    // Get list of 10 previously searched query text for suggestions 
     var searchedTextArray : [String]{
         
         if let storedSearchArray = UserDefaults.standard.object(forKey: .kStoredSearch) as? [String] {

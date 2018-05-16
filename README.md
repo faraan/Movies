@@ -13,3 +13,13 @@ Home screen is SearchMovieViewController screen -
         10 successfull queries are saved FIFO manner to display list of suggestion to load from previously searched query.
         When there is no search result then an alert will appear.
         An empty view is also displayed initially.
+        
+SearchResultsViewController - 
+        Loads and displays list of suggestion of 10 previously searched successful queries
+        Selecting any suggestion will list its searched result in Home screen.
+        
+        
+External libraries used - 
+        NVActivityIndicatorView - for loading activity indicator 
+        Kingfisher    - for image cache and download from url 
+

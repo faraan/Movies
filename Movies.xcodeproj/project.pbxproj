@@ -18,7 +18,6 @@
 		9132FD8220AB4B3F00C097DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9132FD8020AB4B3F00C097DA /* LaunchScreen.storyboard */; };
 		9132FD8D20AB4B3F00C097DA /* MoviesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9132FD8C20AB4B3F00C097DA /* MoviesTests.swift */; };
 		9132FD9820AB4B3F00C097DA /* MoviesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9132FD9720AB4B3F00C097DA /* MoviesUITests.swift */; };
-		9132FDAD20AB579200C097DA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9132FDAC20AB579200C097DA /* Extensions.swift */; };
 		9132FDAF20AB57A600C097DA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9132FDAE20AB57A600C097DA /* Constants.swift */; };
 		9132FDB120AB654900C097DA /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9132FDB020AB654900C097DA /* APIHelper.swift */; };
 		9132FDB320AB65CE00C097DA /* StaticHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9132FDB220AB65CE00C097DA /* StaticHelper.swift */; };
@@ -72,7 +71,6 @@
 		9132FD9320AB4B3F00C097DA /* MoviesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoviesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9132FD9720AB4B3F00C097DA /* MoviesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesUITests.swift; sourceTree = "<group>"; };
 		9132FD9920AB4B3F00C097DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9132FDAC20AB579200C097DA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		9132FDAE20AB57A600C097DA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		9132FDB020AB654900C097DA /* APIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
 		9132FDB220AB65CE00C097DA /* StaticHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticHelper.swift; sourceTree = "<group>"; };
@@ -168,7 +166,6 @@
 			isa = PBXGroup;
 			children = (
 				9132FDA620AB56A500C097DA /* AppDelegate */,
-				9132FDAB20AB572500C097DA /* Extensions */,
 				9132FDA520AB569800C097DA /* Constants */,
 				9132FDAA20AB56EE00C097DA /* Helper Classes */,
 				9132FDB920AB7BD300C097DA /* Modals */,
@@ -249,14 +246,6 @@
 				9132FDB220AB65CE00C097DA /* StaticHelper.swift */,
 			);
 			path = "Helper Classes";
-			sourceTree = "<group>";
-		};
-		9132FDAB20AB572500C097DA /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				9132FDAC20AB579200C097DA /* Extensions.swift */,
-			);
-			path = Extensions;
 			sourceTree = "<group>";
 		};
 		9132FDB420AB67C100C097DA /* Custom Cells */ = {
@@ -569,7 +558,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9132FDAD20AB579200C097DA /* Extensions.swift in Sources */,
 				9132FD7820AB4B3D00C097DA /* AppDelegate.swift in Sources */,
 				9132FDB820AB748500C097DA /* MovieTableViewCell.swift in Sources */,
 				9132FDB320AB65CE00C097DA /* StaticHelper.swift in Sources */,

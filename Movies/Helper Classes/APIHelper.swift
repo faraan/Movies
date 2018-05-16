@@ -71,6 +71,8 @@ class APIHelper: NSObject {
         }
     }
     
+    /* Uncomment for POST calls
+    
     func postRequest(urlString: String, parameters: [String: String], completionBlock: @escaping (_ success: Bool, _ result: Any) -> ()){
         
         let request = urlRequest(urlString: urlString, parameters: parameters)
@@ -106,14 +108,6 @@ class APIHelper: NSObject {
         
         request.httpMethod = HTTPMethod.post.rawValue
         
-        /*
-         let json = try? JSONSerialization.data(withJSONObject: parameters, options: [])
-         
-         request.setValue("application/x-www-form-urlencoded", forHTTPHeaderField: "Content-Type")
-         
-         request.httpBody = json
-         */
-        
         var paramString = ""
         
         for (key, value) in parameters {
@@ -128,4 +122,5 @@ class APIHelper: NSObject {
         }
         return request
     }
+ */
 }
