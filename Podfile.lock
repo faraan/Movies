@@ -1,0 +1,17 @@
+PODS:
+  - Kingfisher (4.7.0)
+  - NVActivityIndicatorView (4.2.0):
+    - NVActivityIndicatorView/Presenter (= 4.2.0)
+  - NVActivityIndicatorView/Presenter (4.2.0)
+
+DEPENDENCIES:
+  - Kingfisher (~> 4.0)
+  - NVActivityIndicatorView
+
+SPEC CHECKSUMS:
+  Kingfisher: da6b005aa96d37698e3e4f1ccfe96a5b9bbf27d6
+  NVActivityIndicatorView: 75c9634073e03b31d7e2748cd2417feab1206195
+
+PODFILE CHECKSUM: d10029f620bba29cc1fd4e167a465971fc6d4e2b
+
+COCOAPODS: 1.4.0
